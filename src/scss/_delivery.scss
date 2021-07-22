@@ -1,0 +1,83 @@
+// Delivery good design start
+section#delivery{
+    margin-bottom: 40px;
+
+    .delivery-header{
+        letter-spacing: .5px;
+
+        .delivery-text{
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 36px;
+
+            span{
+                color: $purple-color;
+                display: block;
+            }
+
+            span:last-of-type{
+                display: none;
+            }
+        }
+
+        p:last-child{
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 32px;
+            letter-spacing: 1px;
+            color: #2d3436f1;
+        }
+    }
+
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+        
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 0;
+
+            img{
+                width: 52.5px;
+                margin: 18px 0;
+            }
+
+            p:first-of-type{
+                font-size: 18px;
+                font-weight: bold;
+                letter-spacing: 0.2px;
+                color: $black-color;
+            }
+
+            p{
+                font-size: 14px;
+                line-height: 32px;
+                color: $gray-color;
+            }
+
+            button{
+                background-color: $white-color;
+                width: 135px;
+                height: 46px;
+                border: 0.75px solid #ADADAD;
+                border-radius: 12px;
+                line-height: 32px;
+                color: $purple-color;
+                font-weight: bold;
+                font-size: 14px;
+                letter-spacing: 0.2px;
+                outline: none;
+                
+                &:hover{
+                    background-color: $purple-color;
+                    color: $white-color;
+                }
+            }
+        }
+    }
+}
+// Delivery good design end

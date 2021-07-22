@@ -1,0 +1,36 @@
+@import "colors";
+@import "header";
+@import "delivery";
+@import "pricing";
+@import "footer";
+@import "mediaQuery";
+// Core
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter' sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    color: $black-color;
+    background-color: $white-color;
+}
+
+.wrapper{
+    margin: 0 15px;
+}
+
+.hide{
+    display: none;
+}
+
+main section#delivery{
+    padding-top: 1em;
+}
+
+
