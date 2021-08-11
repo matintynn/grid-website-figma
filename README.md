@@ -3,7 +3,7 @@
 ![img cover](https://github.com/matintynn/grid-website-figma/blob/master/grid-figma-websize.png)
 
 ### Description:
-👉 This project is part of school project, I received the figma design from the professor and transfer the design to the static site that using HTML, CSS and JavaScript
+👉 This project is part of school project, I received the figma design from the professor and transfer the design to the static site that using HTML, CSS and JavaScript. This landing page is fully responsive.
 
 ### Learned:
 * How to work with the figma file.
