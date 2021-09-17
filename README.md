@@ -19,4 +19,4 @@
 * Discuss with the client to understand the requirements
 
 ### Live website link:
-👉 [grid website](https://replit.com/@SalanLee/Grid-Website-Figma)
+👉 [grid website](https://Grid-Website-Figma.salanlee.repl.co)
